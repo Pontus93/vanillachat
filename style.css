@@ -1,0 +1,83 @@
+  body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "profile chat nav"
+      "footer footer footer";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 35% 1fr 10%;
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1586114728926-fc10c981b7d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    }
+
+  .header {
+    grid-area: header;
+    margin-left: 515px;
+  }
+  .message-container {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+      
+  }
+  .chat { 
+    grid-area: chat;     
+    overflow: auto;
+    }
+  .profile { 
+    grid-area: profile;
+    position: absolute;
+    bottom: 0; 
+    margin: 5px;
+    }
+    .nav {
+        grid-area: nav;
+    }
+     .message-input {
+         width: 707px;
+         margin-left: 5px;
+         height: 30px;
+     }
+     .send-button {
+       margin-top: px;
+        height: 36px;
+     }
+      .send-container {
+        position: fixed;
+        bottom: 0;
+        padding-bottom: 30px;
+        display: flex;
+        height: 40px;
+      }
+      .messageMe {
+        border-radius: 4px;
+        padding: 10px;
+        margin: 5px;
+        color: white;
+        align-self: flex-end;
+        background-color: #1084ff;
+    }
+      .messageYou {
+        border-radius: 4px;
+        padding: 10px;
+        margin: 5px;
+        color: black;
+        align-self: flex-start;
+        background-color: #E5E5EA;
+
+      }
+      .bot {
+          margin: 5px;
+      }
+      .userBtn {
+          margin-top: 5px;
+
+      }
+
