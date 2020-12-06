@@ -8,16 +8,16 @@
   <title>vanilla-chat</title>
   <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <script defer src="script.js"></script>
 </head>
 
 <body>
   <header class="header">
     <h1> js vanilla-chat</h1>
-
   </header>
+
   <div class="profile">
     <div class="displayUser"></div>
     <button class="userBtn">change username</button>
@@ -26,11 +26,11 @@
   <div class="chat">
     <div class="message-container"></div>
     <form class="send-container">
-      <input type="text" class="message-input" autofocus>
+      <input type="text" class="message-input">
       <button type="submit" class="send-button">Send</button>
     </form>
   </div>
-  <script defer src="./script.js"></script>
+
 </body>
 
 </html>
