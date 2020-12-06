@@ -37,47 +37,44 @@ body {
   bottom: 0; 
   margin: 5px;
   }
-  .nav {
+.nav {
       grid-area: nav;
-  }
-   .message-input {
-       width: 707px;
-       margin-left: 5px;
-       height: 30px;
-   }
-   .send-button {
-     margin-top: px;
-      height: 36px;
-   }
-    .send-container {
-      position: fixed;
-      bottom: 0;
-      padding-bottom: 30px;
-      display: flex;
-      height: 40px;
-    }
-    .messageMe {
-      border-radius: 4px;
-      padding: 10px;
-      margin: 5px;
-      color: white;
-      align-self: flex-end;
-      background-color: #1084ff;
-  }
-    .messageYou {
-      border-radius: 4px;
-      padding: 10px;
-      margin: 5px;
-      color: black;
-      align-self: flex-start;
-      background-color: #E5E5EA;
-
-    }
-    .bot {
-        margin: 5px;
-    }
-    .userBtn {
-        margin-top: 5px;
-
-    }
-
+}
+.message-input {
+  width: 707px;
+  margin-left: 5px;
+  height: 30px;
+}
+.send-button {
+  margin-top: px;
+  height: 36px;
+}
+.send-container {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 30px;
+  display: flex;
+  height: 40px;
+}
+.messageMe {
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  align-self: flex-end;
+  background-color: #1084ff;
+}
+.messageYou {
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  color: black;
+  align-self: flex-start;
+  background-color: #E5E5EA;
+}
+.bot {
+  margin: 5px;
+}
+.userBtn {
+  margin-top: 5px;
+}

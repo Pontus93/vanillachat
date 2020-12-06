@@ -12,7 +12,7 @@ function setName() {
   location.reload();
 }
 
-// Userr connect/disconnect.
+// User connect/disconnect.
 socket.emit('new-user', name)
 socket.on('chat-message', data => {
   appendMessageTwo(`${data.name}: ${data.message}`)
@@ -42,7 +42,7 @@ function appendMessage(message) {
   chat.scrollTop = chat.scrollHeight;
 }
 
-// The "others" message, (adds class .messageYou).
+// The "other users" message, (adds class .messageYou).
 function appendMessageTwo(message) {
   const messageElement = document.createElement('div')
   messageElement.className = 'messageYou';
