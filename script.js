@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000')
+const socket = io()
 const messageContainer = document.querySelector('.message-container')
 const messageForm = document.querySelector('.send-container')
 const messageInput = document.querySelector('.message-input')
